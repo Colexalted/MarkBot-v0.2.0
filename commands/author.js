@@ -3,7 +3,7 @@ const {Client, Collection, MessageEmbed} = require('discord.js');
 module.exports.config = {
     name: 'Author',
     description:'A special little command, which mentions the creator of this bot; yours truly!',
-    usage: 'WhoMadeYou',
+    usage: 'Author',
     aliases: []
 
 }

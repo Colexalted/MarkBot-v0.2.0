@@ -17,15 +17,19 @@ let helpEmbed = new MessageEmbed()
     .addFields(
         { name: 'Ping', value: 'A simple ping command. To use this, type !ping.' },
 
-        { name: 'Kick', value: 'A very useful kick command, made specially for admins and mods. To use this command, type !kick.' },
+        { name: 'Kick', value: 'A very useful kick command, made specially for admins and mods. To use this command, type !kick, and then the server members mention.' },
 
-        { name: 'Ban', value: 'A very useful ban command, made specially for admins and mods. To use this command, type !ban.' },
+        { name: 'Ban', value: 'A very useful ban command, made specially for admins and mods. To use this command, type !ban, and then the server members mention.' },
 
-        { name: '8ball', value: 'A fun 8ball command. AMA! To use this, type !8ball' },
+        { name: '8ball', value: 'A fun 8ball command. AMA! To use this, type !8ball, and then your question.' },
 
+        { name: 'Meme', value: 'A command that sends a random meme. To use, type !meme' },
 
+        { name: 'Clear', value: 'A command that clears the amount of specified messages. To use, type !clear, and then the amound of messages you would like deleted.' },
 
+        { name:'Cute', value: 'A command that shows a random cute image! To use, type !cute' },
 
+        { name: 'Author', value: "A message from the bot's author, to you, the user. To use, type !Author." }
 
     )
     

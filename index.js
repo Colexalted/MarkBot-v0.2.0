@@ -1,7 +1,4 @@
-
 const prefix = '!'
-
-
 
 const {Client, Collection, MessageEmbed, Message, ClientUser} = require('discord.js');
 
