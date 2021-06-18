@@ -29,7 +29,6 @@ let helpEmbed = new MessageEmbed()
 
         { name:'Cute', value: 'A command that shows a random cute image! To use, type !cute' },
 
-        { name: 'Author', value: "A message from the bot's author, to you, the user. To use, type !Author." }
 
     )
     
