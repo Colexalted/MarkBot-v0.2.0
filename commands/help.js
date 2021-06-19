@@ -28,6 +28,8 @@ let helpEmbed = new MessageEmbed()
         { name: 'Clear', value: 'A command that clears the amount of specified messages. To use, type !clear, and then the amound of messages you would like deleted.' },
 
         { name:'Cute', value: 'A command that shows a random cute image! To use, type !cute' },
+        
+        { name:'Update', value: 'A command that diplays info on thenewest update! To use, type !update' },
 
 
     )
