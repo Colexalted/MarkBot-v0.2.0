@@ -13,12 +13,12 @@ module.exports.run = async (client, message, args) =>
 {
     let helpEmbed = new MessageEmbed()
     .setAuthor(client.user.username)
-    .setTitle('Newest MarBot™ Update')
+    .setTitle('Newest MarkBot™ Update')
     .setDescription('All my newest updates!')
     .setColor('#b70ee6')
     .setTimestamp(Date.now())
     .addFields(
-    { name: "Small !8ball Update', value: 'A small update to the '!8ball command', a few new phrases have been added. Check it out! " },
+    { name: "Update MarkBot-v0.2.0, 8ball Update! ', value: 'A small update to the '!8ball command', a few new phrases have been added. Check it out! " },
     )
     .setFooter('Thats all folks! Stay tuned for more updates coming soon!')
         message.channel.send(helpEmbed);
