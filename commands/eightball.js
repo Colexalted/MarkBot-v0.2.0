@@ -8,7 +8,7 @@ module.exports.config = {
 }
 
 module.exports.run = async (client, message, args) => {
-let eightball = ['Yes', 'No', 'Maybe', "I'm not sure, ask again later", "Sorry homie, thats classified :wink:", "If you think so...", "Just a tad", "You don't want to know.", "Nah", "I don't wanna tell you :angry:"]
+let eightball = ['Yes', 'No', 'Maybe', "I'm not sure, ask again later", "Sorry homie, thats classified :wink:", "If you think so...", "Just a tad", "You don't want to know.", "Nah", "I don't wanna tell you :angry:", "Sure", "I dont see why not", "probably", "There's not a doubt in my mind"]
 let eightball1 = Math.floor(Math.random() * eightball.length)
 message.channel.send(eightball[eightball1])
 
