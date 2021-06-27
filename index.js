@@ -66,5 +66,5 @@ if (!message.author.bot){
 
 
 
-client.login("NzM5OTE4MTk4OTU4MzI1OTAy.XyhchQ.30ddq1vVr94jVDhrNFi7NkqmXzQ");
+client.login("process.env.token");
 
