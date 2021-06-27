@@ -18,7 +18,7 @@ module.exports.run = async (client, message, args) =>
     .setColor('#b70ee6')
     .setTimestamp(Date.now())
     .addFields(
-    { name: "Update MarkBot-v0.2.0, 8ball Update! ', value: 'A small update to the '!8ball command', a few new phrases have been added. Check it out! " },
+    { name: "Update MarkBot-v0.2.1,  Command Update!", value: "A small update to my command list! Now available commands are: !Nick and !Roast. !Roast is in beta still, with more responses coming soon! Check !help if you have any questions regarding the new commands!" },
     )
     .setFooter('Thats all folks! Stay tuned for more updates coming soon!')
         message.channel.send(helpEmbed);

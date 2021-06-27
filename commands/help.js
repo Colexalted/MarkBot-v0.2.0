@@ -31,6 +31,12 @@ let helpEmbed = new MessageEmbed()
         
         { name:'Update', value: 'A command that diplays info on thenewest update! To use, type !update' },
 
+        { name:'Nick', value: "A command that changes the nickname of the mentioned person! (Assuming you have correct permissions that is...) To use this command, type !nick, mention the person who's name you wish to change, and then the new name!" },
+
+        { name:'Roast', value: 'A command to roast and insult the mentioned user. To use, type !roast and then mention the user you wish to insult!' },
+
+
+
 
     )
     
