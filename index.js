@@ -66,5 +66,5 @@ if (!message.author.bot){
 
 
 
-client.login("process.env.token");
+client.login(process.env.token);
 
