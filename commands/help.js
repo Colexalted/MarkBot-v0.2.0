@@ -37,6 +37,9 @@ let helpEmbed = new MessageEmbed()
         
         { name:'Pickup', value: 'A command to send a pickup line to the mentioned user. To use, type !pickup and then mention the user you wish to hit on!' },
 
+        { name:'Yomama', value: 'A command to send a yo mama joke to the mentioned user. To use, type !yomama and then mention the user you wish to make feel bad!' },
+
+
 
 
 
