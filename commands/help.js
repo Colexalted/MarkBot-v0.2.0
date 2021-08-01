@@ -34,6 +34,9 @@ let helpEmbed = new MessageEmbed()
         { name:'Nick', value: "A command that changes the nickname of the mentioned person! (Assuming you have correct permissions that is...) To use this command, type !nick, mention the person who's name you wish to change, and then the new name!" },
 
         { name:'Roast', value: 'A command to roast and insult the mentioned user. To use, type !roast and then mention the user you wish to insult!' },
+        
+        { name:'Pickup', value: 'A command to send a pickup line to the mentioned user. To use, type !pickup and then mention the user you wish to hit on!' },
+
 
 
 
